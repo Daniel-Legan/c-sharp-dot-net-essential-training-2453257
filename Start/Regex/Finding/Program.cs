@@ -32,3 +32,4 @@ Console.WriteLine($"Found {mc.Count} matches:");
 foreach (Match match in mc) {
     Console.WriteLine($"'{match.Value}' found at position {match.Index}");
 }
+
